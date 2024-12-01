@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jawharat al Thqa | Product Items</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/logo.svg" alt="Logo" />
+          </a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <section id="bg-text">
+      <h1>Food Items</h1>
+    </section>
+    <section id="products">
+      <div class="wrapper">
+        <div class="container">
+          <div class="filter-section" id="hamburger-menu">
+            <div class="heading">
+              <h2>Shop by Category</h2>
+            </div>
+            <form action="">
+              <input type="text" name="q" placeholder="Search anything..." />
+
+              <p class="filter-head">Poultry</p>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="product_type.id"
+                    name="product_type"
+                  />
+                  <span class="label">Chilled Chicken</span>
+                </label>
+              </div>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="product_type.id"
+                    name="product_type"
+                  />
+                  <span class="label">Frozen Chicken</span>
+                </label>
+              </div>
+              <p class="filter-head">Brands</p>
+              <div class="filter">
+                <label class="checkbox">
+                  <input type="checkbox" value="brand.id" name="brand" />
+                  <span class="label">Fresh Chicken</span>
+                </label>
+              </div>
+              <div class="filter">
+                <label class="checkbox">
+                  <input type="checkbox" value="brand.id" name="brand" />
+                  <span class="label">Sadia</span>
+                </label>
+              </div>
+              <p class="filter-head">quantity</p>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="{{ quantity.id }}"
+                    name="quantity"
+                  />
+                  <span class="label">800g</span>
+                </label>
+              </div>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="{{ quantity.id }}"
+                    name="quantity"
+                  />
+                  <span class="label">900g</span>
+                </label>
+              </div>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="{{ quantity.id }}"
+                    name="quantity"
+                  />
+                  <span class="label">1000g</span>
+                </label>
+              </div>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="{{ quantity.id }}"
+                    name="quantity"
+                  />
+                  <span class="label">1100g</span>
+                </label>
+              </div>
+              <div class="filter">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    value="{{ quantity.id }}"
+                    name="quantity"
+                  />
+                  <span class="label">1200g</span>
+                </label>
+              </div>
+              <input type="submit" value="Filter" />
+            </form>
+          </div>
+
+          <div class="view-product">
+            <ul>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/single-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/single-white.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/double-2-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/single-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/single-white.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/single-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/double-2-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/double-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img
+                    src="assets/images/single-yellow.png"
+                    alt="Poultry-Image"
+                  />
+                </div>
+                <h4>Frozen Chicken, 1000g</h4>
+                <div class="item-price">
+                  <span class="offer-price">₹ 2600</span>
+                  <span class="price">₹ 3000</span>
+                  <span class="percentage">8% offer</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul class="contact">
+        <li class="contact-left">
+          <div class="footer-logo">
+            <img src="assets/images/logo.svg" alt="Logo" />
+          </div>
+          <p>Innovating Refrigeration Ideas.</p>
+          <ul class="social">
+            <li>
+              <a href="#"
+                ><img src="assets/images/linkedin.svg" alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="assets/images/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="assets/images/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script src="js/function.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/main.js"></script>
+</html>
